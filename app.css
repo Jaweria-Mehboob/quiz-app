@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100,200,300;400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-sec {
+  background: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.title {
+  color: #1f94d4;
+  font-size: 95px;
+  margin: 50px 0;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.quiz {
+  background: #1f94d4;
+  padding: 60px 10px;
+}
+.quiz-title {
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  margin: 20px 60px;
+}
+.quiz-form {
+  font-weight: normal;
+}
+.question {
+  margin: 50px 60px;
+}
+.q-statement {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: rgba(255, 255, 255);
+}
+.option {
+  letter-spacing: 1px;
+  margin: 0 15px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 55%);
+}
+.button {
+  margin: 50px 60px;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  font-size: 17px;
+  font-style: bold;
+  color: #1f94d4;
+  border: none;
+  border-radius: 4px;
+  padding: 7px;
+}
+.result-container {
+  color: rgba(0, 0, 0, 80%);
+  padding: 20 0;
+  display: none;
+  text-align: center;
+  font-size: 23px;
+  background-color: #f7fbff;
+}
+.percent {
+  color: #3385c6;
+  font-size: 70px;
+  font-weight: 100;
+  padding: 20px;
+}
+
+/* Responsive  */
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+  }
+  .quiz-title {
+    font-size: 32px;
+    margin: 10px 50px;
+  }
+  .question {
+    margin: 45px 55px;
+  }
+  .q-statement {
+    font-size: 17px;
+  }
+  .option {
+    margin: 0 12px;
+    font-size: 15px;
+  }
+  .result-container {
+    padding: 18 0;
+    font-size: 20px;
+  }
+  .percent {
+    font-size: 55px;
+    padding: 18px;
+  }
+}
